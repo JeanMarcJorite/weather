@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="recherche">
+        <input type="search" id="navRecherche" placeholder="Entrer le nom d'une ville">
+        <button id="btnRecherche"><img src="images/recherche.png" alt=""></button>
+    </div>
+    <div>
+        <p class="error">Cette ville n'est pas présente</p>
+    </div>
+    <div id="corps">
+        <h1 id="ville">Paris</h1>
+        <p id="pays">FR</p>
+        <img src="images/clear.png" alt="images ensoleillé" id="temps">
+        <h2 id="temperature"> 25°C</h2>
+        <div class="bottom">
+          <div id="left">
+             <h3 id="vitesse"> 10Km/h</h3>
+             <img src="images/wind.png" alt="vent" id="vent">
+          </div>
+          <div id="right">
+             <h3 id="humidite"> 15 %</h3>
+             <img src="images/humidity.png" alt="humidite image" id="img_humidite">
+          </div>
+        </div>
+    </div>
+</body>
+</html>
